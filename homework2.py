@@ -2,10 +2,10 @@ probel = ' '
 vetka = '*'
 
 rows = int(input('Введите количество веток елки '))
-spaces = rows-1
+otstup = rows-1
 igolka = 1
 
 for i in range(rows):
-    print((probel*spaces) + (vetka*igolka) + (probel*spaces))
+    print((probel*otstup) + (vetka*igolka) + (probel*otstup))
     igolka += 2
-    spaces -= 1
+    otstup -= 1
